@@ -29,7 +29,7 @@
       "name": "Dune Ops Observability",
       "description": "Read-only operations and analytics addon for Dune Docker Console.",
       "author": "DarkDante",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
