@@ -23,6 +23,17 @@
       "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/eda-exchange-bot.json"
+    },
+    {
+      "id": "dune-ops-observability",
+      "name": "Dune Ops Observability",
+      "description": "Read-only operations and analytics addon for Dune Docker Console.",
+      "author": "DarkDante",
+      "version": "0.1.1",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
+      "lifecycleUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-ops-observability.json"
     }
   ]
 }
