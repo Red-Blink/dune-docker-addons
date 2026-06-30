@@ -7,7 +7,7 @@
   "type": "ui",
   "sourceUrl": "https://github.com/yacketrj/dune-ops-observability-addon",
   "downloadUrl": "https://github.com/yacketrj/dune-ops-observability-addon/releases/download/v0.1.1/dune-ops-observability-0.1.1.zip",
-  "sha256": "75061d3d8a8f3724e909952ddc164a36fe2b4a79b2c9f7059323cefad85388c8",
+  "sha256": "4b892c8735b3c32df99aff1479ef336124c4d715ea4a2dd9420906fc61a8326d",
   "permissions": {
     "players": ["read"]
   }
