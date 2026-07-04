@@ -23,6 +23,17 @@
       "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/eda-exchange-bot.json"
+    },
+    {
+      "id": "dune-ops-observability",
+      "name": "Dune Ops Observability",
+      "description": "Read-only operations addon for Dune Docker Console. Provides OPS health summary, player aggregate, and farm aggregate views through the Console bridge.",
+      "author": "DarkDante",
+      "version": "0.3.0",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
+      "lifecycleUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-ops-observability.json"
     }
   ]
 }
