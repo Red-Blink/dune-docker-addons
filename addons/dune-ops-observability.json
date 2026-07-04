@@ -1,0 +1,14 @@
+{
+  "id": "dune-ops-observability",
+  "name": "Dune Ops Observability",
+  "description": "Read-only operations and analytics addon for Dune Docker Console. Provides OPS health, player activity, combat/death analytics, resource tracking, economy/trade, inventory/crafting, location/territory, and a unified SOC operations center.",
+  "author": "DarkDante",
+  "version": "1.0.0",
+  "type": "ui",
+  "sourceUrl": "https://github.com/yacketrj/dune-ops-observability-addon",
+  "downloadUrl": "https://github.com/yacketrj/dune-ops-observability-addon/releases/download/v1.0.0/dune-ops-observability-1.0.0.zip",
+  "sha256": "8ccadb74966f02732b28cb5178931c288e27486e6dec0df666258311074312de",
+  "permissions": [
+    "ops:read"
+  ]
+}

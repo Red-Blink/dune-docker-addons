@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-15T00:00:00Z",
+  "updatedAt": "2026-07-03T00:00:00Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -23,6 +23,17 @@
       "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/eda-exchange-bot.json"
+    },
+    {
+      "id": "dune-ops-observability",
+      "name": "Dune Ops Observability",
+      "description": "Read-only operations and analytics addon for Dune Docker Console. Provides OPS health, player activity, combat/death analytics, resource tracking, economy/trade, inventory/crafting, location/territory, and a unified SOC operations center.",
+      "author": "DarkDante",
+      "version": "1.0.0",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
+      "lifecycleUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-ops-observability.json"
     }
   ]
 }
