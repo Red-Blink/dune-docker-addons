@@ -1,1 +1,16 @@
-{"id":"dune-ops-observability","name":"Dune Ops Observability","description":"Read-only operations and analytics addon for Dune Docker Console.","author":"DarkDante","version":"0.2.1","type":"ui","sourceUrl":"https://github.com/yacketrj/dune-ops-observability-addon","downloadUrl":"https://github.com/yacketrj/dune-ops-observability-addon/releases/download/v0.2.1/dune-ops-observability-0.2.1.zip","sha256":"71015181a0b336a0c128d642d365dda73e5a80d961482dd8ec8a9fe0227dff2d","permissions":{"players":["read"]}}
+{
+  "id": "dune-ops-observability",
+  "name": "Dune Ops Observability",
+  "description": "Read-only operations addon for Dune Docker Console. Provides OPS health summary, player aggregate, and farm aggregate views through the Console bridge.",
+  "author": "DarkDante",
+  "version": "0.3.1",
+  "type": "ui",
+  "sourceUrl": "https://github.com/yacketrj/dune-ops-observability-addon",
+  "downloadUrl": "https://github.com/yacketrj/dune-ops-observability-addon/releases/download/v0.3.1/dune-ops-observability-0.3.1.zip",
+  "sha256": "23eb9af71fe6c80fcbf174232990fb8605b814147a2fde1e53b4ce00d5b96c2b",
+  "permissions": {
+    "ops": [
+      "read"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-json
+      - id: check-yaml
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.28.0
+    hooks:
+      - id: gitleaks
+
+  - repo: local
+    hooks:
+      - id: trivy
+        name: trivy
+        entry: trivy fs --scanners secret --severity HIGH,CRITICAL .
+        language: system
+        pass_filenames: false
+        always_run: true
+        verbose: false
+
+      - id: semgrep
+        name: semgrep
+        entry: semgrep --error --config p/default
+        language: system
+        pass_filenames: false
+        always_run: true
+        verbose: false
+
+      - id: validate-catalog-shas
+        name: Validate catalog SHAs
+        entry: bash scripts/validate-catalog-shas.sh
+        language: system
+        pass_filenames: false
+        files: ^addons/
