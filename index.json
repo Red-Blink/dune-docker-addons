@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-09T14:18:45Z",
+  "updatedAt": "2026-07-09T14:28:45Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -40,7 +40,7 @@
       "name": "Discord Bot Integration",
       "description": "Companion UI for configuring the RedBlink Discord Bot Addon.",
       "author": "RedBlink Community",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
