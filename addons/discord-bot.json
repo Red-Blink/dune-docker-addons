@@ -3,11 +3,11 @@
   "name": "Discord Bot Integration",
   "description": "Companion UI for configuring the RedBlink Discord Bot Addon.",
   "author": "RedBlink Community",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "type": "ui",
   "sourceUrl": "https://github.com/atobo/Dune-Docker-Discord-Bot",
-  "downloadUrl": "https://github.com/atobo/Dune-Docker-Discord-Bot/releases/download/v1.0.14/discord-bot-1.0.14.zip",
-  "sha256": "c90982d48c700975285fe7b01e126b7807699f76a0babfb0b56e2ebfaebef7de",
+  "downloadUrl": "https://github.com/atobo/Dune-Docker-Discord-Bot/releases/download/v1.0.15/discord-bot-1.0.15.zip",
+  "sha256": "9ea20183036787904d2b50a6feade85dba2721a80f8288c524c800c383da593c",
   "permissions": {
     "database": ["read", "write"]
   }
