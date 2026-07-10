@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-06T18:11:07Z",
+  "updatedAt": "2026-07-08T19:45:18Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -27,9 +27,9 @@
     {
       "id": "dune-ops-observability",
       "name": "Dune Ops Observability",
-      "description": "Read-only operations addon for Dune Docker Console. Provides OPS health summary, player aggregate, and farm aggregate views through the Console bridge.",
+      "description": "Read-only operations addon providing NOC dashboard, player activity, spice field tracking, and OPS health monitoring through the Console bridge.",
       "author": "DarkDante",
-      "version": "0.3.1",
+      "version": "0.4.1",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
