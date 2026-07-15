@@ -40,7 +40,7 @@
       "name": "Airdrop Manager",
       "description": "Standalone manager for playtime, daily streak, and weekly attendance-based G0 instant airdrops.",
       "author": "atobo",
-      "version": "1.2.3",
+      "version": "1.2.6",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",

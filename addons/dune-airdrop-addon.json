@@ -3,10 +3,10 @@
   "name": "Airdrop Manager",
   "description": "Standalone manager for playtime, daily streak, and weekly attendance-based G0 instant airdrops.",
   "author": "atobo",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "type": "ui",
   "sourceUrl": "https://github.com/atobo/dune-airdrop-addon",
-  "downloadUrl": "https://github.com/atobo/dune-airdrop-addon/releases/download/v1.2.5/dune-airdrop-addon-1.2.5.zip",
-  "sha256": "eea9df011d50c90ea2a1988b7e538fa66661c366391f0f0db98d8b58750cd920",
+  "downloadUrl": "https://github.com/atobo/dune-airdrop-addon/releases/download/v1.2.6/dune-airdrop-addon-1.2.6.zip",
+  "sha256": "28b4c06be45308f27103ab09551d212db45dd2e044f7d414789556f98cc87997",
   "permissions": ["database:read", "database:write"]
 }
