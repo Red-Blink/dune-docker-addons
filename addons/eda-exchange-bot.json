@@ -7,7 +7,7 @@
   "type": "ui",
   "sourceUrl": "https://github.com/n00bgames/eda-exchange-bot",
   "downloadUrl": "https://github.com/n00bgames/eda-exchange-bot/releases/download/v0.9.1/eda-exchange-bot-0.9.1.zip",
-  "sha256": "b0aec50e905597eedffcd81ab1cb6eb4eafe62cc41c8f2ef93b8a91e0d121635",
+  "sha256": "s0ddc2efe4fcc37f8bbae635574c52cb82e4a96e1af8065efbb64a3c71c32614c",
   "permissions": [
     "database:read",
     "database:write"
