@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-20T06:26:46Z",
+  "updatedAt": "2026-08-06T14:16:51Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -17,8 +17,8 @@
       "id": "eda-exchange-bot",
       "name": "EDA Exchange Bot",
       "description": "Easy Dune Admin exchange seeder controls for RedBlink Dune Docker Console.",
-      "author": "n00bGames, jeffstokes72",
-      "version": "0.9.2",
+      "author": "jeffstokes72, n00bGames",
+      "version": "0.13.9",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
@@ -29,7 +29,7 @@
       "name": "Dune Ops Observability",
       "description": "Read-only operations addon providing NOC dashboard, player activity, spice field tracking, and OPS health monitoring through the Console bridge.",
       "author": "DarkDante",
-      "version": "0.4.1",
+      "version": "0.4.7",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
