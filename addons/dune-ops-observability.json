@@ -4,7 +4,7 @@
   "name": "Dune Ops Observability",
   "description": "Read-only operations addon providing NOC dashboard, player activity, spice field tracking, OPS health monitoring, and live Prometheus/Grafana metrics through the Console bridge.",
   "author": "DarkDante",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "type": "ui",
   "entry": {
     "navigation": "Ops Observability",
@@ -16,6 +16,6 @@
     ]
   },
   "sourceUrl": "https://github.com/yacketrj/dune-ops-observability-addon",
-  "downloadUrl": "https://github.com/yacketrj/dune-ops-observability-addon/releases/download/v0.5.0/dune-ops-observability-0.5.0.zip",
-  "sha256": "7a88012f52a09f6f9c416a1cdf0256b8299d9e6c7bb845955185747a41d336ca"
+  "downloadUrl": "https://github.com/yacketrj/dune-ops-observability-addon/releases/download/v0.5.1/dune-ops-observability-0.5.1.zip",
+  "sha256": "f3052db8d862fd5e088c19ca36a6726d77030c71cba7ccc40c33c4bce622cbb1"
 }
