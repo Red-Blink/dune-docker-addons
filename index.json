@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T00:00:00Z",
+  "updatedAt": "2026-09-03T14:12:00.779Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -56,6 +56,17 @@
       "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/fluffy-fox-status.json"
+    },
+    {
+      "id": "dune-chat-monitor",
+      "name": "Dune Chat Monitor",
+      "description": "Read-only live and history monitor for Dune: Awakening chat. Requires manually installing the host-side collector from the source repository; it follows dune-text-router Docker logs and stores data only in its own SQLite database. Private/direct Whispers are excluded from collection and storage.",
+      "author": "WilliamDG",
+      "version": "0.2.7",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
+      "lifecycleUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-chat-monitor.json"
     }
   ]
 }
