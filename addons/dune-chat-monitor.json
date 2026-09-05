@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "dune-chat-monitor",
   "name": "Dune Chat Monitor",
-  "description": "Read-only live and history monitor for Dune: Awakening chat. Requires manually installing the host-side collector from the source repository; it follows dune-text-router Docker logs and stores data only in its own SQLite database. Private/direct Whispers are excluded from collection and storage.",
+  "description": "Read-only live and history monitor for Dune: Awakening chat. The version-pinned companion collector follows dune-text-router Docker logs, persists allowed chat history in its own SQLite database, and exports generated UI JSON/history under the Console addon's web/live/ directory. Private/direct Whispers are excluded from both SQLite persistence and JSON exports.",
   "author": "WilliamDG",
   "version": "0.2.7",
   "type": "ui",
