@@ -4,15 +4,15 @@
   "name": "Dune Chat Monitor",
   "description": "Read-only live and history monitor for Dune: Awakening chat. The version-pinned companion collector follows dune-text-router Docker logs, persists allowed chat history in its own SQLite database, and exports generated UI JSON/history under the Console addon's web/live/ directory. Private/direct Whispers are excluded from both SQLite persistence and JSON exports.",
   "author": "WilliamDG",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "type": "ui",
   "entry": {
     "navigation": "Chat Monitor",
     "path": "web/index.html"
   },
   "sourceUrl": "https://github.com/WilliamDG/dune-chat-monitor",
-  "downloadUrl": "https://github.com/WilliamDG/dune-chat-monitor/releases/download/v0.2.7/dune-chat-monitor-0.2.7.zip",
-  "sha256": "726b797f76782a5291860b370dc0843a9a662c1acf75af12d20895df3875cd84",
+  "downloadUrl": "https://github.com/WilliamDG/dune-chat-monitor/releases/download/v0.2.8/dune-chat-monitor-0.2.8.zip",
+  "sha256": "7894206245f639cba03340d73c728a1c1e529dd5e04de8b07f8348814e2a697e",
   "permissions": {
     "players": [
       "read"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T14:12:00.779Z",
+  "updatedAt": "2026-09-09T17:59:39.381Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -62,7 +62,7 @@
       "name": "Dune Chat Monitor",
       "description": "Read-only live and history monitor for Dune: Awakening chat. The version-pinned companion collector follows dune-text-router Docker logs, persists allowed chat history in its own SQLite database, and exports generated UI JSON/history under the Console addon's web/live/ directory. Private/direct Whispers are excluded from both SQLite persistence and JSON exports.",
       "author": "WilliamDG",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
