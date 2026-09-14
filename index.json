@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T00:00:00Z",
+  "updatedAt": "2026-09-14T03:40:01Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -51,7 +51,7 @@
       "name": "Fluffy Fox Status",
       "description": "A lightweight hardware and system monitoring addon for Dune Docker Console.",
       "author": "SugarFluff-WildHeart",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
