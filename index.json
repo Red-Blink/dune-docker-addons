@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T17:42:36.926Z",
+  "updatedAt": "2026-09-14T07:55:29.357Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -67,6 +67,17 @@
       "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-chat-monitor.json"
+    },
+    {
+      "id": "fluffyfox-ascension",
+      "name": "FluffyFox Ascension",
+      "description": "A server-owned seasonal reward track for Dune Docker Console.",
+      "author": "Fluffy Fox",
+      "version": "0.3.8",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
+      "lifecycleUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/fluffyfox-ascension.json"
     }
   ]
 }

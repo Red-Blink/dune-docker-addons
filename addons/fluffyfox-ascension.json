@@ -1,0 +1,16 @@
+{
+  "id": "fluffyfox-ascension",
+  "name": "FluffyFox Ascension",
+  "description": "A server-owned seasonal reward track for Dune Docker Console.",
+  "author": "Fluffy Fox",
+  "version": "0.3.8",
+  "type": "ui",
+  "sourceUrl": "https://github.com/SugarFluff-WildHeart/FluffyFox-Ascension",
+  "downloadUrl": "https://github.com/SugarFluff-WildHeart/FluffyFox-Ascension/releases/download/v0.3.8/fluffyfox-ascension-0.3.8.zip",
+  "sha256": "a7c4d5c8421017b75eb42d5d756b33f6934e1c7e5782cda1c993cdd923064b89",
+  "permissions": {
+    "players": ["read", "message"],
+    "files": ["addon-data"],
+    "rewards": ["grant"]
+  }
+}
