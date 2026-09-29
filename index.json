@@ -78,6 +78,17 @@
       "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/fluffyfox-ascension.json"
+    },
+    {
+      "id": "mapviewer3d",
+      "name": "MapViewer3D",
+      "description": "Live 3D map of Hagga Basin and Deep Desert with players, bases, vehicles, hazards and resources. Runs as a companion container (installer included). Requires a Console API key with scopes maps: Read and bases: Read (created by an admin under Settings > API Keys).",
+      "author": "dev-prophet-code",
+      "version": "0.1.2",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
+      "lifecycleUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/mapviewer3d.json"
     }
   ]
 }
