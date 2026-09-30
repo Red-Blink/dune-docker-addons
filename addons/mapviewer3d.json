@@ -4,14 +4,14 @@
   "name": "MapViewer3D",
   "description": "Live 3D map of Hagga Basin and Deep Desert with players, bases, vehicles, hazards and resources. Runs as a companion container (installer included). Requires a Console API key with scopes maps: Read and bases: Read (created by an admin under Settings > API Keys).",
   "author": "dev-prophet-code",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "ui",
   "entry": {
     "navigation": "3D Map",
     "path": "web/index.html"
   },
   "sourceUrl": "https://github.com/dev-prophet-code/MapViewer3D/tree/DD-Addon",
-  "downloadUrl": "https://github.com/dev-prophet-code/MapViewer3D/releases/download/addon-v0.1.5/mapviewer3d-0.1.5.zip",
-  "sha256": "cf5792e117f0a8c50070c1b389f617963e6ffd7020b882c07738f25c7df21961",
+  "downloadUrl": "https://github.com/dev-prophet-code/MapViewer3D/releases/download/addon-v0.1.6/mapviewer3d-0.1.6.zip",
+  "sha256": "fb6263038061ac37a7ffca83af4743c5aa1b7ee37e9dbb4bd66a3dd09ace1516",
   "permissions": {}
 }
