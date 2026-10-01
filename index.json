@@ -84,7 +84,7 @@
       "name": "MapViewer3D",
       "description": "Live 3D map of Hagga Basin and Deep Desert with players, bases, vehicles, hazards and resources. Nothing to install on the server: terrain and models stream from GitHub, live data comes from the console API with a key you create (Settings > API Keys: maps Read, bases Read).",
       "author": "dev-prophet-code",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
