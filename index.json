@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T18:01:56.000Z",
+  "updatedAt": "2026-10-31T21:30:55.000Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -40,7 +40,7 @@
       "name": "Airdrop Manager",
       "description": "Standalone manager for playtime, daily streak, and weekly attendance-based G0 instant airdrops. WARNING: Automated airdrops require manually running a companion daemon container with the repository .env, host networking, scripts, and a Docker socket mount (which permits privileged Docker API operations).",
       "author": "atobo",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
