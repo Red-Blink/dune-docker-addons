@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T15:55:41.338Z",
+  "updatedAt": "2026-10-31T16:13:00.720Z",
   "addons": [
     {
       "id": "leadership-board-demo",
       "name": "Leadership Board Demo",
       "description": "Demo addon showing a ranked player overview with level, faction, guild, status, and last-seen details.",
       "author": "Red-Blink",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
