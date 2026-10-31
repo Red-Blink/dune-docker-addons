@@ -34,6 +34,14 @@ Example:
 - `sha256`: Required SHA-256 checksum of the archive.
 - `permissions`: Requested console permissions. Use structured permissions such as `{ "players": ["read"] }`. The console also accepts legacy string arrays like `["players:read"]`, but structured permissions are preferred for new addons.
 
+Supported permission names are `players:read`, `ops:read`, `server:status`,
+`files:addon-data`, `rewards:grant`, `players:message`, `admin:grant-items`,
+`database:read`, `database:write`, `server:restart`, `broadcast:send` and
+`scheduler:server`. A recognized permission does not guarantee a general action
+exists: restart/broadcast are reserved, and scheduler access is legacy. For new
+addons, prefer the typed player, storage, hardware and delivery APIs described
+in the [template permission guide](https://github.com/Red-Blink/dune-docker-addon-template/blob/main/docs/permissions.md).
+
 ## SHA-256
 
 The checksum must match the exact archive served by `downloadUrl`.

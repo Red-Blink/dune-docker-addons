@@ -12,6 +12,28 @@ Addon submissions are reviewed through pull requests. This repository is only th
 - Add the manifest to `index.json` by adding a short entry with `id`, `name`, `description`, `author`, `version`, lifecycle fields, and `manifestUrl`.
 - Include a SHA-256 checksum for the release archive. Addons without a valid checksum are not considered installable.
 
+## Validate Your Submission
+
+Run these from the catalog repository before opening a PR:
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/validate.py
+python3 scripts/validate.py --verify-packages
+```
+
+The first catalog check is offline. The optional package check downloads active
+and deprecated releases without installing or executing them, verifies their
+checksums, and checks that each ZIP has `addon.json` at its root, a valid entry
+file, and matching identity, version and permissions. These checks also run in
+GitHub Actions on PRs, pushes and a weekly schedule.
+
+Test the packaged UI inside the Console sandbox before submitting it. Direct
+REST calls, external asset downloads and browser storage are not granted by an
+addon manifest. Use the permissioned bridge and bundle needed runtime assets.
+See the template's [Bridge API](https://github.com/Red-Blink/dune-docker-addon-template/blob/main/docs/bridge-api.md)
+and the Console's [Addon Runtime API](https://github.com/Red-Blink/dune-awakening-selfhost-docker/blob/main/docs/addons/addon-runtime-api.md).
+
 ## Manual Release Package Flow
 
 GitHub's automatic `Source code (zip)` and `Source code (tar.gz)` downloads are not addon install packages.
