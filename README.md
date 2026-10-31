@@ -29,6 +29,3 @@ caveats from an existing addon's automation.
 The community index can mark addons as `active`, `deprecated`, `unsupported`, `removed`, or `blocked`.
 
 Lifecycle state is managed in this repository, not inside an addon's own `addon.json`. This lets the catalog stop recommending abandoned addons, warn users about unsupported addons, and block unsafe addons while still letting server owners uninstall local copies cleanly.
-
-See [Compatibility Notes](docs/compatibility.md) for reviewed package limitations
-and the reasons behind current unsupported listings.
