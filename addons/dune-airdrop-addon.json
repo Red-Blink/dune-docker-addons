@@ -3,14 +3,15 @@
   "name": "Airdrop Manager",
   "description": "Standalone manager for playtime, daily streak, and weekly attendance-based G0 instant airdrops. WARNING: Automated airdrops require manually running a companion daemon container with the repository .env, host networking, scripts, and a Docker socket mount (which permits privileged Docker API operations).",
   "author": "atobo",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "type": "ui",
   "sourceUrl": "https://github.com/atobo/dune-airdrop-addon",
-  "downloadUrl": "https://github.com/atobo/dune-airdrop-addon/releases/download/v1.4.2/dune-airdrop-addon-1.4.2.zip",
-  "sha256": "ac5342596ba3f4886be4365a5a99a860bab9ac5b3ad24c5d91d57c65ddcb1cd3",
+  "downloadUrl": "https://github.com/atobo/dune-airdrop-addon/releases/download/v1.4.3/dune-airdrop-addon-1.4.3.zip",
+  "sha256": "033179f63f1d24127a815f2df910726a93187bef211aa93ede30a4cf2bf2476c",
   "permissions": [
     "database:read",
     "database:write",
-    "admin:grant-items"
+    "admin:grant-items",
+    "files:addon-data"
   ]
 }
