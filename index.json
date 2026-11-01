@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T13:03:37Z",
+  "updatedAt": "2026-11-01T13:30:55Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -8,8 +8,8 @@
       "description": "Demo addon showing a ranked player overview with level, faction, guild, status, and last-seen details.",
       "author": "Red-Blink",
       "version": "1.0.2",
-      "lifecycle": "active",
-      "lifecycleMessage": "",
+      "lifecycle": "unsupported",
+      "lifecycleMessage": "Temporarily unsupported due to compatibility issues with the current Console. Awaiting a developer update and compatibility verification.",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/leadership-board-demo.json"
     },
@@ -30,8 +30,8 @@
       "description": "Read-only operations addon providing NOC dashboard, player activity, spice field tracking, and OPS health monitoring through the Console bridge.",
       "author": "DarkDante",
       "version": "0.4.7",
-      "lifecycle": "active",
-      "lifecycleMessage": "",
+      "lifecycle": "unsupported",
+      "lifecycleMessage": "Temporarily unsupported due to compatibility issues with the current Console. Awaiting a developer update and compatibility verification.",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-ops-observability.json"
     },
@@ -52,8 +52,8 @@
       "description": "A lightweight hardware and system monitoring addon for Dune Docker Console.",
       "author": "SugarFluff-WildHeart",
       "version": "0.3.6",
-      "lifecycle": "active",
-      "lifecycleMessage": "",
+      "lifecycle": "unsupported",
+      "lifecycleMessage": "Temporarily unsupported due to compatibility issues with the current Console. Awaiting a developer update and compatibility verification.",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/fluffy-fox-status.json"
     },
@@ -63,8 +63,8 @@
       "description": "Read-only live and history monitor for Dune: Awakening chat. The version-pinned companion collector follows dune-text-router Docker logs, persists allowed chat history in its own SQLite database, and exports generated UI JSON/history under the Console addon's web/live/ directory. Private/direct Whispers are excluded from both SQLite persistence and JSON exports.",
       "author": "WilliamDG",
       "version": "0.2.9",
-      "lifecycle": "active",
-      "lifecycleMessage": "",
+      "lifecycle": "unsupported",
+      "lifecycleMessage": "Temporarily unsupported due to compatibility issues with the current Console. Awaiting a developer update and compatibility verification.",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-chat-monitor.json"
     },
@@ -74,8 +74,8 @@
       "description": "A server-owned seasonal reward track for Dune Docker Console.",
       "author": "Fluffy Fox",
       "version": "0.3.8",
-      "lifecycle": "active",
-      "lifecycleMessage": "",
+      "lifecycle": "unsupported",
+      "lifecycleMessage": "Temporarily unsupported due to compatibility issues with the current Console. Awaiting a developer update and compatibility verification.",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/fluffyfox-ascension.json"
     }
