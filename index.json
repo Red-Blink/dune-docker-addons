@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T21:30:55.000Z",
+  "updatedAt": "2026-11-01T12:46:40Z",
   "addons": [
     {
       "id": "leadership-board-demo",
       "name": "Leadership Board Demo",
       "description": "Demo addon showing a ranked player overview with level, faction, guild, status, and last-seen details.",
       "author": "Red-Blink",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "lifecycle": "active",
       "lifecycleMessage": "",
       "lifecycleUrl": "",
@@ -63,9 +63,9 @@
       "description": "Read-only live and history monitor for Dune: Awakening chat. The version-pinned companion collector follows dune-text-router Docker logs, persists allowed chat history in its own SQLite database, and exports generated UI JSON/history under the Console addon's web/live/ directory. Private/direct Whispers are excluded from both SQLite persistence and JSON exports.",
       "author": "WilliamDG",
       "version": "0.2.9",
-      "lifecycle": "unsupported",
-      "lifecycleMessage": "This release fetches companion JSON directly, which the Console sandbox blocks. A sandbox-compatible release is required for new installations.",
-      "lifecycleUrl": "https://github.com/Red-Blink/dune-docker-addons/blob/main/docs/compatibility.md",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
+      "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/dune-chat-monitor.json"
     },
     {
@@ -78,17 +78,6 @@
       "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/fluffyfox-ascension.json"
-    },
-    {
-      "id": "mapviewer3d",
-      "name": "MapViewer3D",
-      "description": "Live 3D map of Hagga Basin and Deep Desert with players, bases, vehicles, hazards and resources. Nothing to install on the server: terrain and models stream from GitHub, live data comes from the console API with a key you create (Settings > API Keys: maps Read, bases Read). Live worms, NPCs, vehicles and storms appear when the console offers Realtime Data.",
-      "author": "dev-prophet-code",
-      "version": "0.3.1",
-      "lifecycle": "unsupported",
-      "lifecycleMessage": "This release fetches external map assets and calls REST APIs directly, which the Console sandbox blocks. A sandbox-compatible release is required for new installations.",
-      "lifecycleUrl": "https://github.com/Red-Blink/dune-docker-addons/blob/main/docs/compatibility.md",
-      "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/mapviewer3d.json"
     }
   ]
 }

@@ -3,11 +3,11 @@
   "name": "Leadership Board Demo",
   "description": "Demo addon showing a ranked player overview with level, faction, guild, status, and last-seen details.",
   "author": "Red-Blink",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "ui",
   "sourceUrl": "https://github.com/Red-Blink/dune-docker-leadership",
-  "downloadUrl": "https://github.com/Red-Blink/dune-docker-leadership/releases/download/v1.0.1/leadership-board.zip",
-  "sha256": "6b1b234b94cfab63ef4f6e5daed1dc8c9e72f8b7dd805c53a9cf2e67a18b0265",
+  "downloadUrl": "https://github.com/Red-Blink/dune-docker-leadership/releases/download/v1.0.2/leadership-board.zip",
+  "sha256": "e4d79bd6a26a595fcd2db6c15b97f2ebbb95fb5ebfd479624b6464d0fc51cd0b",
   "permissions": [
     "players:read"
   ]
