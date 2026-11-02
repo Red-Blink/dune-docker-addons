@@ -66,6 +66,17 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'unsupported'):
             validator.validate_catalog(self.root)
 
+    def test_realtime_read_accepted_in_every_manifest_form_and_lookalikes_rejected(self):
+        for form in [{'realtime': ['read']}, ['realtime:read'], {'realtime': ['read'], 'players': ['read']}]:
+            self.manifest['permissions'] = form
+            self.save()
+            self.assertEqual(validator.validate_catalog(self.root), 1, form)
+        for bad in [['realtime.read'], ['realtime:write'], ['realtime:*'], {'realtime': ['write']}, ['realtime:']]:
+            self.manifest['permissions'] = bad
+            self.save()
+            with self.assertRaisesRegex(ValueError, 'unsupported'):
+                validator.validate_catalog(self.root)
+
     def test_rejects_floating_downloads_and_malformed_hashes(self):
         for url in ['http://github.com/example/addon/releases/download/v1/a.zip', 'https://github.com/example/addon/releases/latest/download/a.zip', 'https://github.com/example/addon/releases/download/latest/a.zip']:
             self.manifest['downloadUrl'] = url

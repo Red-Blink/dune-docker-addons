@@ -36,8 +36,9 @@ Example:
 
 Supported permission names are `players:read`, `ops:read`, `server:status`,
 `files:addon-data`, `rewards:grant`, `players:message`, `admin:grant-items`,
-`database:read`, `database:write`, `server:restart`, `broadcast:send` and
-`scheduler:server`. A recognized permission does not guarantee a general action
+`database:read`, `database:write`, `server:restart`, `broadcast:send`,
+`scheduler:server` and `realtime:read` (written `{ "realtime": ["read"] }`; it needs a
+Console that provides the `realtime.health` and `realtime.objects` bridge actions). A recognized permission does not guarantee a general action
 exists: restart/broadcast are reserved, and scheduler access is legacy. For new
 addons, prefer the typed player, storage, hardware and delivery APIs described
 in the [template permission guide](https://github.com/Red-Blink/dune-docker-addon-template/blob/main/docs/permissions.md).

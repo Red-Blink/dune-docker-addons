@@ -16,6 +16,7 @@ PERMISSIONS = {
     'players:read', 'ops:read', 'database:read', 'database:write',
     'admin:grant-items', 'rewards:grant', 'players:message', 'server:status',
     'server:restart', 'files:addon-data', 'broadcast:send', 'scheduler:server',
+    'realtime:read',
 }
 LIFECYCLES = {'active', 'deprecated', 'unsupported', 'removed', 'blocked'}
 ID = re.compile(r'[a-z0-9][a-z0-9-]{1,63}\Z')
