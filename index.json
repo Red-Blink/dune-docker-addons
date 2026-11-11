@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T13:30:55Z",
+  "updatedAt": "2026-11-11T19:55:59Z",
   "addons": [
     {
       "id": "leadership-board-demo",
@@ -8,8 +8,8 @@
       "description": "Demo addon showing a ranked player overview with level, faction, guild, status, and last-seen details.",
       "author": "Red-Blink",
       "version": "1.0.2",
-      "lifecycle": "unsupported",
-      "lifecycleMessage": "Temporarily unsupported due to compatibility issues with the current Console. Awaiting a developer update and compatibility verification.",
+      "lifecycle": "active",
+      "lifecycleMessage": "",
       "lifecycleUrl": "",
       "manifestUrl": "https://raw.githubusercontent.com/Red-Blink/dune-docker-addons/main/addons/leadership-board-demo.json"
     },
